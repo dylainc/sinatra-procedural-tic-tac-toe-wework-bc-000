@@ -2,10 +2,10 @@ require_relative 'config/environment'
 
 class Application < Sinatra::Base
   get '/index' do
-    #initialize TicTacToe
-    #@game = TicTacToe.new
-    'testing!'
-    #erb :index
+    initialize TicTacToe
+    @game = TicTacToe.new
+    
+    erb :index
   end
 
 
