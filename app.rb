@@ -4,8 +4,8 @@ class Application < Sinatra::Base
   get '/index' do
     #initialize TicTacToe
     #@game = TicTacToe.new
-
-    erb :index
+    'testing!'
+    #erb :index
   end
 
 
