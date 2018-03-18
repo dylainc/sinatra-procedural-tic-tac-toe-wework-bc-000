@@ -15,7 +15,6 @@ class Application < Sinatra::Base
     @game = TicTacToe.new
 
     original_string = params["0"]
-    @game.board[0] = original_string
     original_string = params["1"]
     original_string = params["2"]
     original_string = params["3"]
